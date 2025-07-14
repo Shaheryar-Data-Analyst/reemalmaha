@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Reem Al Maha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f3f4f6;
+      color: #111827;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #f97316, #ef4444);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      animation: fadeInDown 1s ease forwards;
+    }
+    nav {
+      background-color: white;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    nav a {
+      color: #374151;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+      position: relative;
+    }
+    nav a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #ef4444;
+      transition: width 0.3s;
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+    }
+    nav a:hover {
+      color: #ef4444;
+    }
+    nav a:hover::after {
+      width: 100%;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 960px;
+      margin: auto;
+      background: linear-gradient(to bottom right, #fff, #f9fafb);
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+    section:hover {
+      transform: scale(1.01);
+    }
+    ul {
+      padding-left: 25px;
+      margin-bottom: 40px;
+    }
+    ul li {
+      margin-bottom: 6px;
+      animation: slideIn 0.6s ease both;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: #ef4444;
+      animation: slideIn 1s ease forwards;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #1f2937;
+      color: #f3f4f6;
+      font-size: 0.9rem;
+    }
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header><h1>Our Services</h1></header>
+  <nav>
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+  </nav>
+  <section>
+    <h2>Civil Work</h2>
+    <ul>
+      <li>False Ceilings
+        <ul>
+          <li>Acoustic & Fireproof Ceilings</li>
+          <li>Architectural Ceilings</li>
+          <li>Cell Ceilings</li>
+        </ul>
+      </li>
+      <li>Flooring
+        <ul>
+          <li>Carpet Tiling</li>
+          <li>Ceramic Flooring</li>
+          <li>Excess / Raised Flooring</li>
+          <li>Gym / Sports / Health Club / SPA Flooring</li>
+          <li>HD Floor Drains</li>
+          <li>Laminated Wood Flooring</li>
+          <li>Marmoleum / Linoleum Flooring</li>
+          <li>PVC / Vinyl Tile Flooring</li>
+          <li>Rubber & Chemical Resistant Flooring</li>
+        </ul>
+      </li>
+      <li>Restroom / Toilet Cubicles</li>
+      <li>Roof Insulation / Waterproofing</li>
+      <li>Gypsum Board / Cement Board Partitioning</li>
+      <li>Wall Decorative Finishing / Painting</li>
+      <li>Wall Protection Systems
+        <ul>
+          <li>Handrails</li>
+          <li>Wall Guards / Bumper Guards</li>
+          <li>Corner Guards</li>
+          <li>Kick Plates</li>
+          <li>Rigid Vinyl Sheets</li>
+        </ul>
+      </li>
+      <li>Acoustic Wall Covering</li>
+      <li>Vinyl Wall Covering</li>
+      <li>Window Treatment Coverings
+        <ul>
+          <li>Vertical & Venetian Blinds</li>
+          <li>Pleated & Roller Blinds</li>
+          <li>Soft Shades / Panels</li>
+          <li>Curtains & Track Systems</li>
+        </ul>
+      </li>
+      <li>Brick Work & Concrete Structures</li>
+    </ul>
+
+    <h2>Electrical / Instrumentation Work</h2>
+    <ul>
+      <li>Electrical Wiring</li>
+      <li>Ceiling Lights Fitting / Installation</li>
+      <li>Electric Motors Installation / Repair</li>
+      <li>Water Heater / Cooler Installation</li>
+      <li>Pipeline / Tank Heating Installation</li>
+      <li>Air / Process Heaters Installation</li>
+      <li>Storage Tank Level Measurement System and Supply</li>
+      <li>Ultrasonic and Other Flow Meter Installation</li>
+      <li>Temperature Measurement and Control Instruments</li>
+      <li>Process and Pollution Monitoring Instruments</li>
+    </ul>
+
+    <h2>Mechanical Work</h2>
+    <ul>
+      <li>Air Compressor / Vacuum Pump Installation</li>
+      <li>Compressed Air Dryer / Filter Installation</li>
+      <li>Gas Filters / Dryers Installation</li>
+      <li>Factory Piping</li>
+      <li>Fire Fighting System Installation</li>
+      <li>General Equipment and Machinery Installation</li>
+      <li>General Mechanical Maintenance and Repair</li>
+      <li>Steel Structures Installation</li>
+    </ul>
+
+    <h2>HVAC</h2>
+    <ul>
+      <li>Maintenance & Fabrication and Installation Work</li>
+    </ul>
+
+    <h2>General Work</h2>
+    <ul>
+      <li>Painting / Coating of Storage Tanks and Pipelines</li>
+      <li>Painting / Renovation of Buildings</li>
+      <li>Repairs / Renovation of Restrooms / Toilet Cubicles and Kitchen</li>
+      <li>Supply and Installation of Wooden Doors, Dupont Korean Tops and Granite Thresholds</li>
+      <li>Supply and Installation of Aluminum Kitchens and Cabinets</li>
+      <li>Plumbing Work</li>
+    </ul>
+
+    <h2>Our Clients and Projects</h2>
+    <ul>
+      <li>Al Shaya Int. Trading Company</li>
+      <li>Al Futtaim Global Trading</li>
+      <li>Al Nahdi – KSA</li>
+      <li>DipnDip – KSA</li>
+      <li>Allied Maintenance – Khobar</li>
+      <li>DHL – KSA</li>
+      <li>Tamimi Head Office – Dammam</li>
+      <li>Abdullah Al Karim</li>
+      <li>Techno Tafga – Al Jubail</li>
+      <li>Belad Al Sham – Riyadh</li>
+      <li>Modern Design Est. – Al Jubail</li>
+      <li>Techno Engineers – Riyadh</li>
+      <li>Post Office Building – Dammam</li>
+      <li>New Building Hadeed – Jubail</li>
+      <li>Mina Hospital (Mina Port) – Dammam</li>
+      <li>JAL Int. Company Ltd – Khobar</li>
+      <li>Khobar Mall</li>
+      <li>Hadeed Recreation Center – Jubail</li>
+      <li>USA Consulate – Dhahran</li>
+      <li>Kettaneh Construction – Khobar</li>
+      <li>ASJ Establishment – Jeddah</li>
+      <li>ODC Est. – Jeddah</li>
+      <li>SIMCO – Bahrain</li>
+    </ul>
+  </section>
+  <footer>&copy; 2025 Reem Al Maha Trading Est.</footer>
+</body>
+</html>
