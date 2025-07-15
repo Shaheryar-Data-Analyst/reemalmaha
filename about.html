@@ -1,3 +1,8 @@
+<!--
+Design Baseline Acknowledgement:
+The responsive layout, typewriter effect, header formatting (with bilingual title), navigation bar, and styled section/footer from this about.html are now considered the design baseline.
+All future pages (index.html, services.html, contact.html, certificate.html, etc.) will follow the same color palette, layout structure, mobile responsiveness, and font styling.
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -48,7 +53,8 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     display: flex;
     justify-content: center;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 20px;
   }
   nav a {
     color: #374151;
@@ -125,6 +131,38 @@
     height: 3px;
     background-color: #f97316;
     margin-top: 8px;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.5rem;
+      line-height: 1.4;
+    }
+    .typewriter {
+      font-size: 0.95rem;
+      line-height: 1.4;
+      padding: 10px 5vw;
+      width: 100%;
+    }
+    nav {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 0;
+    }
+    nav a {
+      font-size: 0.9rem;
+    }
+    section {
+      padding: 30px 15px;
+    }
+    img[alt="Reem Al Maha Logo"] {
+      width: 140px !important;
+      margin-bottom: -30px !important;
+    }
+    section p {
+      font-size: 1rem;
+    }
   }
   </style>
 </head>
