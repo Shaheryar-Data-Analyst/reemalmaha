@@ -19,7 +19,7 @@
     header {
       background: linear-gradient(135deg, #f97316, #ef4444);
       color: white;
-      padding: 50px 20px;
+      padding: 2px 20px;
       text-align: center;
       position: relative;
     }
@@ -113,12 +113,43 @@
         transform: translateX(0);
       }
     }
+    .typewriter {
+      overflow: hidden;
+      border-right: 2px solid #ef4444;
+      white-space: nowrap;
+      animation: typing 4s steps(40, end) infinite, blink 0.75s step-end infinite;
+      font-weight: 600;
+      width: 25ch;
+    }
+    @keyframes typing {
+      0% { width: 0; }
+      50% { width: 25ch; }
+      100% { width: 0; }
+    }
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
   </style>
 </head>
 <body>
-  <header><h1>Our Services</h1></header>
+<header>
+    <img src="logo.jpeg" alt="Reem Al Maha Logo" style="width: 185px;margin-bottom: -10px" />
+    <h1>
+       <span style="font-size: 3.5rem; font-weight: 700;">مؤسسة ريم المها للتجارة العامة<br></span>
+      Reem Al Maha Trading Est.<br>
+     
+    </h1>
+
+  </header>
+  <div style="text-align: center; margin: 20px auto; max-width: 800px; padding: 0 20px;">
+    <p class="typewriter">Empowering Growth Through Industrial Excellence</p>
+  </div>
   <nav>
-    <a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html" aria-current="page">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="certificate.html">Certificate</a>
   </nav>
   <section>
     <h2>Civil Work</h2>
